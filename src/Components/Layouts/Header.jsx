@@ -5,7 +5,7 @@ function Header() {
     <div>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid  ">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             <img className="img-fluid" src="Assests/logo.svg" alt=""  />
           </a>{" "}
           &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
@@ -34,13 +34,13 @@ function Header() {
               </li>{" "}
               &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
               <li className="nav-item mt-3">
-                <a className="nav-link headerfontcolor" href="#">
+                <a className="nav-link headerfontcolor" href="/">
                   <b>Marketplace</b>
                 </a>
               </li>
               &nbsp; &nbsp;
               <li className="nav-item mt-3">
-                <a className="nav-link headerfontcolor" href="#">
+                <a className="nav-link headerfontcolor" href="/">
                   <b>Drops</b>
                 </a>
               </li>{" "}
@@ -48,7 +48,7 @@ function Header() {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle headerfontcolor mt-3"
-                  href="#"
+                  href="/"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -57,66 +57,66 @@ function Header() {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item " href="#">
+                    <a className="dropdown-item " href="/">
                       Philadelphia 76ers
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/">
                       Aston Martin F1
                     </a>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/">
                       Lega Serie A
                     </a>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/">
                       DRESSX
                     </a>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/">
                       Heavy Metal
                     </a>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/">
                       LA Kings
                     </a>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/">
                       Paris Saint-Germain
                     </a>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/">
                       UFC
                     </a>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/">
                       Angel City FC
                     </a>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/">
                       Crypto.com
                     </a>
                   </li>
 
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/">
                       DeFi The Game
                     </a>
                   </li>
@@ -134,18 +134,18 @@ function Header() {
                 </a>
               </li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <li className="nav-item">
-                <a className="nav-link headerfontcolor " href="#">
+                <a className="nav-link headerfontcolor " href="/">
                   <b>Sign In</b>
                 </a>
               </li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
               <li className="nav-item">
-                <a className="nav-link headerfontcolor" href="#">
+                <a className="nav-link headerfontcolor" href="/">
                   <b>Sign Up</b>
                 </a>
               </li> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <li className="nav-item">
-                <a className="nav-link headerfontcolor mt-3" href="#">
+                <a className="nav-link headerfontcolor mt-3" href="/">
                   <b>English</b>
                 </a>
               </li>
