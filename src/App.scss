@@ -1,0 +1,95 @@
+body{
+  background-color: #0B1426 !important;
+}
+.form-control {
+  background: transparent !important;
+  border: 1px solid white !important;
+  border-radius: 20px !important;
+  color: white !important;
+  width: 400px !important;
+}
+
+.headerfontcolor {
+  color: white !important;
+  
+}
+.header-button {
+  background: linear-gradient(90deg, #1199fa, #11d0fa);
+  border-radius: 4px;
+  line-height: 22px;
+  padding: 8px 24px;
+}
+.header-button2 {
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-link {
+  margin-left: 30px !important;
+}
+.back-img{
+  background: url("Media/card1.png") 0% 0% / cover;
+ 
+  background-repeat: no-repeat;
+  height: 30vh !important;
+ 
+}
+.back-img1{
+  background: url("Media/card2.jpeg") 0% 0% / cover;
+
+  background-repeat: no-repeat;
+  height: 30vh !important;
+ 
+}
+.back-img2{
+  background: url("Media/card3.jpeg") 0% 0% / cover;
+ 
+  background-repeat: no-repeat;
+  height: 30vh !important;
+ 
+}
+.back-img3{
+  background: url("Media/card4.jpeg") 0% 0% / cover;
+
+  background-repeat: no-repeat;
+  height: 30vh !important;
+ 
+}.back-img4{
+  background: url("Media/card5.png") 0% 0% / cover;
+  
+  background-repeat: no-repeat;
+  height: 30vh !important;
+  
+ 
+}
+.fontbottom{
+  position:absolute;
+  bottom: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.cardbgcolor{
+  background-color: black;
+}
+.cardfontcolor{
+  color: white;
+
+}
+.card{
+  border-radius:  20px !important;
+  border: none !important;
+}
+.card-body{
+  overflow: hidden;
+}
+@media screen and (max-width:600px) {
+  .hideimg{
+    display: none;
+  }
+}
+
