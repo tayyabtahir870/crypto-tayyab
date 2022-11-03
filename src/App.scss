@@ -1,5 +1,5 @@
-body{
-  background-color: #0B1426 !important;
+body {
+  background-color: #0b1426 !important;
 }
 .form-control {
   background: transparent !important;
@@ -11,7 +11,6 @@ body{
 
 .headerfontcolor {
   color: white !important;
-  
 }
 .header-button {
   background: linear-gradient(90deg, #1199fa, #11d0fa);
@@ -32,64 +31,108 @@ body{
 .nav-link {
   margin-left: 30px !important;
 }
-.back-img{
+.back-img {
   background: url("Media/card1.png") 0% 0% / cover;
- 
+
   background-repeat: no-repeat;
   height: 30vh !important;
- 
 }
-.back-img1{
+.back-img1 {
   background: url("Media/card2.jpeg") 0% 0% / cover;
 
   background-repeat: no-repeat;
   height: 30vh !important;
- 
 }
-.back-img2{
+.back-img2 {
   background: url("Media/card3.jpeg") 0% 0% / cover;
- 
+
   background-repeat: no-repeat;
   height: 30vh !important;
- 
 }
-.back-img3{
+.back-img3 {
   background: url("Media/card4.jpeg") 0% 0% / cover;
 
   background-repeat: no-repeat;
   height: 30vh !important;
- 
-}.back-img4{
+}
+.back-img4 {
   background: url("Media/card5.png") 0% 0% / cover;
-  
+
   background-repeat: no-repeat;
   height: 30vh !important;
-  
- 
 }
-.fontbottom{
-  position:absolute;
+.fontbottom {
+  position: absolute;
   bottom: 0;
   margin-left: 10px;
   margin-bottom: 10px;
 }
-.cardbgcolor{
+.cardbgcolor {
   background-color: black;
 }
-.cardfontcolor{
+.cardfontcolor {
   color: white;
-
 }
-.card{
-  border-radius:  20px !important;
+.card {
+  border-radius: 20px !important;
   border: none !important;
 }
-.card-body{
+.card-body {
   overflow: hidden;
 }
-@media screen and (max-width:600px) {
-  .hideimg{
+@media screen and (max-width: 600px) {
+  .hideimg {
     display: none;
   }
 }
+.sc-pyfCe {
+  background-color: transparent !important;
+  color: white !important;
+}
 
+.sc-eDvSVe {
+  background-color: #0b1426 !important;
+}
+.cardimg1 {
+  border-radius: 30px;
+}
+.cardtext {
+  font-size: 14px;
+  font-weight: 500;
+}
+.cardtext1 {
+  color: rgb(98, 105, 115);
+
+  font-size: 12px;
+  font-weight: 500;
+}
+.cardcolor{
+  background-color: #DCF0FE !important;
+
+}
+.buttoncard{
+
+  font-weight: 600;
+  
+  // margin: auto;
+  color: rgb(17, 153, 250);
+  background-color: #DAEEFC ;
+  border-radius: 5px;
+  border: none;
+
+
+  
+
+
+}
+
+.textcard{
+ display: flex;
+ justify-content: space-between;
+}
+.cardtext2{
+  color: rgb(16, 16, 16);
+
+  font-size: 16px;
+  font-weight: 500;
+}
