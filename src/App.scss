@@ -136,3 +136,16 @@ body {
   font-size: 16px;
   font-weight: 500;
 }
+.footertext{
+ 
+  color: rgb(176, 180, 185);
+  font-size: 14px;
+  font-weight: normal;
+}
+.footerendtext{
+  display: flex;
+    // align-items: flex-end;
+    // flex-wrap: wrap;
+    gap: 8px 16px;
+    justify-content: end;
+}

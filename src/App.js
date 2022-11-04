@@ -1,18 +1,26 @@
-import './App.scss';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import 'bootstrap/dist/js/bootstrap.bundle';
-import Header from './Components/Layouts/Header';
-import Hero from './Components/Elements/Hero';
-import Sidebar1 from './Components/Layouts/Sidebar1';
+import "./App.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Base from "./Components/Layouts/Base";
+import Home from "./Pages/Home";
+import Card01 from "./Components/Elements/Card01";
 
 function App() {
   return (
     <div>
-      <Header/>
-      <Hero/>
-      <Sidebar1/>
      
+
+      <BrowserRouter>
+        <Base>
+          <Routes>
+          
+          <Route index path="/" element={<Home/>}/>
+          <Route  path="/card01" element={<Card01/>}/>
+            
+          </Routes>
+        </Base>
+      </BrowserRouter>
     </div>
   );
 }
