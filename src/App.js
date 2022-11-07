@@ -4,7 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Base from "./Components/Layouts/Base";
 import Home from "./Pages/Home";
-import Card01 from "./Components/Elements/Card01";
+import Carddata from "./Pages/Carddata";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Routes>
           
           <Route index path="/" element={<Home/>}/>
-          <Route  path="/card01" element={<Card01/>}/>
+          <Route  path="/carddata" element={<Carddata/>}/>
             
           </Routes>
         </Base>

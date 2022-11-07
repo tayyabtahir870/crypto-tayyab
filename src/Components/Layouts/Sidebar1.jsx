@@ -1,9 +1,12 @@
 import React from "react";
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 import { ProSidebarProvider } from "react-pro-sidebar";
-import { Link } from "react-router-dom";
+import { useNavigate} from "react-router-dom"
+import carddata from "../Utils/crypto_data.json"
+
 
 function Sidebar1() {
+  const navigate = useNavigate()
   return (
     <div class="container-fluid py-5 px-3 ">
       <div className="row">
@@ -12,7 +15,7 @@ function Sidebar1() {
             </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col-md-3">
           <div className="container-fluid py-5 px-3">
             
             <ProSidebarProvider>
@@ -182,13 +185,16 @@ function Sidebar1() {
             </ProSidebarProvider>
           </div>
         </div>
-        <div class="col mt-5 ">
+        
+        {carddata.map(
+          i=>(
+            <div class="col-md-3 mt-5 " onClick={()=>navigate("/carddata", {state:i})}>
           <div class="card">
-           <Link to="/card01"> <img
-              src="https://d2vi0z68k5oxnr.cloudfront.net/3644ea8d-76e1-45cb-a24f-752b0cabafc6/original.gif"
+            <img
+              src={i.img}
               class="card-img-top"
               alt="..."
-            /> </Link>
+            /> 
             <div class="card-body">
               <div className="d-flex">
                 <div>
@@ -237,7 +243,10 @@ function Sidebar1() {
             </div>
           </div>
         </div>
-        <div class="col mt-5">
+          )
+        )}
+        
+        {/* <div class="col mt-5">
           <div class="card">
             <img
               src="https://d2vi0z68k5oxnr.cloudfront.net/22ac4df0-b3c3-4d10-b3ef-1e8f7f2b3006/original.png?d=sm-cover"
@@ -402,9 +411,9 @@ function Sidebar1() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="row py-5 ">
+      {/* <div className="row py-5 ">
        
         <div className="col ">
           
@@ -635,7 +644,7 @@ function Sidebar1() {
 
         </div>
 
-      </div>
+      </div> */}
     </div>
   );
 }

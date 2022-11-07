@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "author": "Cryptoverse",
+    "avatar": "/assets/ca1.gif",
+    "img": "https://d2vi0z68k5oxnr.cloudfront.net/3644ea8d-76e1-45cb-a24f-752b0cabafc6/original.gif",
+    "name": "Helmsman Hank",
+    "type": ["crypto", "Crypto.org Chain"],
+    "status": "53/381 for sale",
+    "offer": "Buy",
+    "price": 36
+  },
+  {
+    "id": "2",
+    "author": "Cryptoverse",
+    "avatar": "/assets/ca1.gif",
+    "img": "https://d2vi0z68k5oxnr.cloudfront.net/22ac4df0-b3c3-4d10-b3ef-1e8f7f2b3006/original.png?d=sm-cover",
+    "name": "Agent SHIB",
+    "type": ["crypto", "Crypto.org Chain"],
+    "status": "1.6k/8.5k for sale",
+    "offer": "Buy",
+    "price": 19
+  },
+  {
+    "id": "3",
+    "author": "Bad Billy Goats",
+    "avatar": "/assets/ca2.webp",
+    "img": "https://d2vi0z68k5oxnr.cloudfront.net/3dd0aaf7-ecf0-436e-9982-78f07b68fb81/original.gif",
+    "name": "Bad Billy Goats #4342",
+    "type": ["coronos", "coronos"],
+    "status": "53/381 for sale",
+    "offer": "Bid",
+    "price": 29
+  },
+  {
+    "id": "4",
+    "author": "Nifty Nanas",
+    "avatar": "/assets/ca3.png",
+    "img": "https://d2vi0z68k5oxnr.cloudfront.net/3dd0aaf7-ecf0-436e-9982-78f07b68fb81/original.gif",
+    "name": "Cronus Nana #3243",
+    "type": ["coronos", "coronos"],
+    "status": "1 minuted",
+    "offer": "Buy",
+    "price": 19
+  },
+  {
+    "id": "5",
+    "author": "CROMMY",
+    "avatar": "/assets/ca5.webp",
+    "img": "https://d2vi0z68k5oxnr.cloudfront.net/3dd0aaf7-ecf0-436e-9982-78f07b68fb81/original.gif",
+    "name": "Cute Mummy #1568",
+    "type": ["coronos", "coronos"],
+    "status": "1 minuted",
+    "offer": "Buy",
+    "price": 19
+  },
+  {
+    "id": "6",
+    "author": "CROCOSNFT",
+    "avatar": "/assets/ca6.jpeg",
+    "img": "/assets/cb6.png",
+    "name": "Crocos NFT early founder edition",
+    "type": ["coronos", "coronos"],
+    "status": "53/381 for sale",
+    "offer": "Buy",
+    "price": 45
+  },
+  {
+    "id": "7",
+    "author": "Zombabies",
+    "avatar": "/assets/ca7.webp",
+    "img": "/assets/cb7.png",
+    "name": "Zombabies",
+    "type": ["coronos", "coronos"],
+    "status": "1 miunted",
+    "offer": "Buy",
+    "price": 29
+  },
+  {
+    "id": "8",
+    "author": "TMK CUSTOMS",
+    "avatar": "/assets/ca8.png",
+    "img": "/assets/cb8.png",
+    "name": "TMK WOLFFIE",
+    "type": ["coronos", "coronos"],
+    "status": "53/381 for sale",
+    "offer": "Buy",
+    "price": 10
+  }
+]
