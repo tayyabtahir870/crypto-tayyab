@@ -8,7 +8,8 @@
     "type": ["crypto", "Crypto.org Chain"],
     "status": "53/381 for sale",
     "offer": "Buy",
-    "price": 36
+    "price": 36,
+    "like":33
   },
   {
     "id": "2",

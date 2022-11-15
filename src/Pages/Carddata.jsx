@@ -39,7 +39,7 @@ function Carddata() {
           </div>
           <div className="hrt">
             <p>
-              <img src={"Assets/heart.svg"} alt="" /> &nbsp; 0
+              <img src={"Assets/heart.svg"} alt="" /> &nbsp; {state.like}
             </p>
 
             <p>

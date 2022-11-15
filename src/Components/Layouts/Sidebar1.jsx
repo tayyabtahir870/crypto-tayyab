@@ -186,8 +186,7 @@ function Sidebar1() {
           </div>
         </div>
         
-        {carddata.map(
-          i=>(
+        {carddata.map(i=>(
             <div class="col-md-3 mt-5 " onClick={()=>navigate("/carddata", {state:i})}>
           <div class="card">
             <img
